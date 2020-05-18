@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ProguardConfiguration Include="$(MSBuildThisFileDirectory)..\..\proguard\MonoAndroid90\proguard.txt" />
+  </ItemGroup>
+  <PropertyGroup>
+    <AndroidManifestMerger>manifestmerger.jar</AndroidManifestMerger>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <XamarinBuildRestoreResources Include="_XbdRestoreItems_playservicesbase_16_1_0" />
+  </ItemGroup>
+  <Target Name="_XbdRestoreItems_playservicesbase_16_1_0">
+    <ItemGroup>
+      <XamarinBuildDownload Include="playservicesbase-16.1.0">
+        <Url>https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-base/16.1.0/play-services-base-16.1.0.aar</Url>
+        <ToFile>playservicesbase-16.1.0.aar</ToFile>
+        <Kind>Uncompressed</Kind>
+        <Sha256>3a543b05dfa09ca84fb47ed5e166ec7fbd7715ce630bbde44c10ffa5fb81daa4</Sha256>
+      </XamarinBuildDownload>
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <XamarinBuildDownloadRestoreAssemblyAar Include="$(XamarinBuildDownloadDir)playservicesbase-16.1.0\playservicesbase-16.1.0.aar" />
+    </ItemGroup>
+  </Target>
+
+</Project>

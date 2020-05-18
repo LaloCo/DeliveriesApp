@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{D5F25DCA-D863-46E1-AF9C-0F464A05AAB1}|Default">
+  <MonoDevelop.Ide.ItemProperties.DeliveriesApp.Android PreferredExecutionTarget="Android.my_device" />
+  <MonoDevelop.Ide.ItemProperties.DeliveryPersonApp.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.my_device" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DeliveryPersonApp.Android/Resources/layout/PickUp.axml">
+    <Files>
+      <File FileName="DeliveryPersonApp.Android/Resources/layout/PickUp.axml" Line="11" Column="46" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DeliveriesApp" expanded="True">
+            <Node name="DeliveryPersonApp.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True">
+                  <Node name="PickUp.axml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DeliveriesApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B7EC39E8-C7BA-48B5-A39B-F8E86AECDA66" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
