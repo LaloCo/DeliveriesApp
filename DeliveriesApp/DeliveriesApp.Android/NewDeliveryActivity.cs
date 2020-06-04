@@ -156,19 +156,19 @@ namespace DeliveriesApp.Droid
 
         private async void SaveButton_Click(object sender, EventArgs e)
         {
-            //var originLocation = mapFragment.Map.CameraPosition.Target;
-            //var destinationLocation = destinationMapFragment.Map.CameraPosition.Target;
-            //Delivery delivery = new Delivery()
-            //{
-            //    Name = packageNameEditText.Text,
-            //    Status = 0,
-            //    OriginLatitude = originLocation.Latitude,
-            //    OriginLongitude = originLocation.Longitude,
-            //    DestinationLatitude = destinationLocation.Latitude,
-            //    DestinationLongitude = destinationLocation.Longitude
-            //};
+            var originLocation = originMap.CameraPosition.Target;
+            var destinationLocation = destinationMap.CameraPosition.Target;
+            Delivery delivery = new Delivery()
+            {
+                Name = packageNameEditText.Text,
+                Status = 0,
+                OriginLatitude = originLocation.Latitude,
+                OriginLongitude = originLocation.Longitude,
+                DestinationLatitude = destinationLocation.Latitude,
+                DestinationLongitude = destinationLocation.Longitude
+            };
 
-            //await Delivery.InsertDelivery(delivery);
+            await Delivery.InsertDelivery(delivery);
         }
     }
 }
