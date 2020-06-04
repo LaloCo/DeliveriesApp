@@ -1,20 +1,18 @@
-﻿<Properties StartupConfiguration="{D5F25DCA-D863-46E1-AF9C-0F464A05AAB1}|Default">
+﻿<Properties StartupConfiguration="{F025B83B-BF07-47FA-B903-3CB9FB5B8C26}|Default">
   <MonoDevelop.Ide.ItemProperties.DeliveriesApp.Android PreferredExecutionTarget="Android.my_device" />
-  <MonoDevelop.Ide.ItemProperties.DeliveryPersonApp.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.my_device" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DeliveryPersonApp.Android/Resources/layout/PickUp.axml">
+  <MonoDevelop.Ide.ItemProperties.DeliveryPersonApp.Android AndroidDesignerPreferredTheme="Theme.AppCompat" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.my_device" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DeliveriesApp/DeliveriesApp.Android/MainActivity.cs">
     <Files>
-      <File FileName="DeliveryPersonApp.Android/Resources/layout/PickUp.axml" Line="11" Column="46" />
+      <File FileName="DeliveriesApp/DeliveriesApp.Android/NewDeliveryActivity.cs" Line="44" Column="41" />
+      <File FileName="DeliveriesApp/DeliveriesApp.Android/MainActivity.cs" Line="39" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DeliveriesApp" expanded="True">
-            <Node name="DeliveryPersonApp.Android" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="layout" expanded="True">
-                  <Node name="PickUp.axml" selected="True" />
-                </Node>
-              </Node>
+            <Node name="DeliveriesApp.Android" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="MainActivity.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -25,7 +23,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/eduardorosas/Projects/DeliveriesApp/DeliveriesApp/DeliveriesApp.Android/NewDeliveryActivity.cs" relfile="DeliveriesApp/DeliveriesApp.Android/NewDeliveryActivity.cs" line="40" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

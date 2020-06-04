@@ -34,8 +34,8 @@ namespace DeliveriesApp.Droid
 
         private void RegisterButton_Click(object sender, EventArgs e)
         {
-            var intent = new Intent(this, typeof(RegisterActivity));
-            intent.PutExtra("email", emailEditText.Text);
+            var intent = new Intent(this, typeof(NewDeliveryActivity));
+            //intent.PutExtra("email", emailEditText.Text);
             StartActivity(intent);
         }
 

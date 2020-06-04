@@ -12,6 +12,9 @@ using DeliveriesApp.Model;
 using Android.Gms.Maps;
 using Android.Locations;
 using Android.Gms.Maps.Model;
+using Android.Support.V7.App;
+using Android.Support.V4.App;
+using Android.Support.V4.View;
 
 namespace DeliveriesApp.Droid
 {
@@ -23,6 +26,7 @@ namespace DeliveriesApp.Droid
         MapFragment mapFragment, destinationMapFragment;
         double latitude, longitude;
         LocationManager locationManager;
+        GoogleMap originMap, destinationMap;
 
         public void OnLocationChanged(Location location)
         {
@@ -99,19 +103,19 @@ namespace DeliveriesApp.Droid
 
         private async void SaveButton_Click(object sender, EventArgs e)
         {
-            var originLocation = mapFragment.Map.CameraPosition.Target;
-            var destinationLocation = destinationMapFragment.Map.CameraPosition.Target;
-            Delivery delivery = new Delivery()
-            {
-                Name = packageNameEditText.Text,
-                Status = 0,
-                OriginLatitude = originLocation.Latitude,
-                OriginLongitude = originLocation.Longitude,
-                DestinationLatitude = destinationLocation.Latitude,
-                DestinationLongitude = destinationLocation.Longitude
-            };
+            //var originLocation = mapFragment.Map.CameraPosition.Target;
+            //var destinationLocation = destinationMapFragment.Map.CameraPosition.Target;
+            //Delivery delivery = new Delivery()
+            //{
+            //    Name = packageNameEditText.Text,
+            //    Status = 0,
+            //    OriginLatitude = originLocation.Latitude,
+            //    OriginLongitude = originLocation.Longitude,
+            //    DestinationLatitude = destinationLocation.Latitude,
+            //    DestinationLongitude = destinationLocation.Longitude
+            //};
 
-            await Delivery.InsertDelivery(delivery);
+            //await Delivery.InsertDelivery(delivery);
         }
     }
 }
