@@ -4471,11 +4471,11 @@ namespace DeliveriesApp.Droid
 			// aapt resource value: 0x7F0D0041
 			public const int fab_transformation_sheet_behavior = 2131558465;
 			
-			// aapt resource value: 0x7F0D0042
-			public const int hello = 2131558466;
-			
 			// aapt resource value: 0x7F0D0001
 			public const int Hello = 2131558401;
+			
+			// aapt resource value: 0x7F0D0042
+			public const int hello = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
 			public const int hide_bottom_view_on_scroll_behavior = 2131558467;
@@ -4484,28 +4484,34 @@ namespace DeliveriesApp.Droid
 			public const int mtrl_chip_close_icon_content_description = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int password_toggle_content_description = 2131558469;
+			public const int ok = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int path_password_eye = 2131558470;
+			public const int password_toggle_content_description = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int path_password_eye_mask_strike_through = 2131558471;
+			public const int path_password_eye = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int path_password_eye_mask_visible = 2131558472;
+			public const int path_password_eye_mask_strike_through = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int path_password_strike_through = 2131558473;
+			public const int path_password_eye_mask_visible = 2131558473;
 			
 			// aapt resource value: 0x7F0D004A
-			public const int search_menu_title = 2131558474;
+			public const int path_password_strike_through = 2131558474;
 			
 			// aapt resource value: 0x7F0D004B
-			public const int status_bar_notification_info_overflow = 2131558475;
+			public const int permission_location_rationale = 2131558475;
 			
 			// aapt resource value: 0x7F0D004C
-			public const int title_activity_webview = 2131558476;
+			public const int search_menu_title = 2131558476;
+			
+			// aapt resource value: 0x7F0D004D
+			public const int status_bar_notification_info_overflow = 2131558477;
+			
+			// aapt resource value: 0x7F0D004E
+			public const int title_activity_webview = 2131558478;
 			
 			static String()
 			{
