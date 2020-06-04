@@ -2,4 +2,6 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">DeliveriesApp.Android</string>
+	<string name="permission_location_rationale">We need your location to spy on you xD</string>
+	<string name="ok">Great! Spy on me.</string>
 </resources>
